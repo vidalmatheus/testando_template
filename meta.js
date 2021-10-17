@@ -15,15 +15,16 @@ module.exports = {
       type: 'string',
       message: 'Author'
     },
-		inPlace: {
-			type: 'boolean',
-			message: 'inPlace?',
-			default: false
-		}
   },
 	complete: (data, {chalk}) => {
-		console.log("Hello!");
-		console.log(data);
-		console.log(`${chalk.blue('Howdy!')}`);
+		msg = `
+			To get started:
+			${chalk.blueBright(`
+				cd ${data.destDirName}
+				follow the instructions on README.md
+			`)}
+			${chalk.green('Project created!')}
+		`;
+		console.log(msg);
 	}
 };
