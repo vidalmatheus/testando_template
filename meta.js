@@ -9,7 +9,7 @@ module.exports = {
       type: 'string',
       required: false,
       message: '',
-      default: 'Fsquare project'
+      default: 'My Fsquare project'
     },
     author: {
       type: 'string',
