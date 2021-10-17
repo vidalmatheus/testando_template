@@ -15,10 +15,6 @@ module.exports = {
       type: 'string',
       message: 'Author'
     },
-    extra: {
-      type: 'string',
-      message: 'Extra Messaging!'
-    }
   },
   completeMessage: 'Project Created!'
 };
