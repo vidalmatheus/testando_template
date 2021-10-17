@@ -9,7 +9,7 @@ module.exports = {
       type: 'string',
       required: false,
       message: '',
-      default: 'My Awesome Project'
+      default: 'Fsquare project'
     },
     author: {
       type: 'string',
@@ -20,5 +20,5 @@ module.exports = {
       message: 'Extra Messaging!'
     }
   },
-  completeMessage: 'Project Complete!'
+  completeMessage: 'Project Created!'
 };
