@@ -17,10 +17,9 @@ module.exports = {
     },
   },
 	complete: (data, {chalk}) => {
-		console.log(chalk.green('Project created!'));
-		msg = `
-To get started:
-	${chalk.blueBright(`
+		console.log(chalk.green('\nProject created!'));
+		msg = `\nTo get started:
+    ${chalk.blueBright(`
 		cd ${data.destDirName}
 		follow the instructions on README.md`)}`;
 		console.log(msg);
