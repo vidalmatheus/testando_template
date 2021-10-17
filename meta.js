@@ -16,8 +16,10 @@ module.exports = {
       message: 'Author'
     },
   },
-	complete: () => {
+	complete: (data, {logger, chalk}) => {
 		console.log("Hello!");
-	},
-  completeMessage: 'Project Created!'
+		console.log(data);
+		console.log(logger);
+		console.log(chalk);
+	}
 };
