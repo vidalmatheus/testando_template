@@ -17,14 +17,14 @@ module.exports = {
     },
   },
 	complete: (data, {chalk}) => {
+		${chalk.green('Project created!')}
 		msg = `
-			To get started:
-			${chalk.blueBright(`
-				cd ${data.destDirName}
-				follow the instructions on README.md
-			`)}
-			${chalk.green('Project created!')}
-		`;
+To get started:
+	${chalk.blueBright(`
+		cd ${data.destDirName}
+		follow the instructions on README.md
+	`)}
+`;
 		console.log(msg);
 	}
 };
