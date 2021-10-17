@@ -18,7 +18,7 @@ module.exports = {
 		inPlace: {
 			type: 'boolean',
 			message: 'inPlace?',
-			default: false'
+			default: false
 		}
   },
 	complete: (data, {chalk}) => {
