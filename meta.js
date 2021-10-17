@@ -17,7 +17,7 @@ module.exports = {
     },
   },
 	complete: (data, {chalk}) => {
-		console.log(chalk.green('\nProject created \o/!'));
+		console.log(chalk.green('\nProject created \\o/!'));
 		msg = `\nTo get started:
     ${chalk.blueBright(`
 		cd ${data.destDirName}
