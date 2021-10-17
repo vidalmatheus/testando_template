@@ -22,9 +22,7 @@ module.exports = {
 To get started:
 	${chalk.blueBright(`
 		cd ${data.destDirName}
-		follow the instructions on README.md
-	`)}
-`;
+		follow the instructions on README.md`)}`;
 		console.log(msg);
 	}
 };
