@@ -15,11 +15,15 @@ module.exports = {
       type: 'string',
       message: 'Author'
     },
+		inPlace: {
+			type: 'boolean',
+			message: 'inPlace?',
+			default: false'
+		}
   },
-	complete: (data, {logger, chalk}) => {
+	complete: (data, {chalk}) => {
 		console.log("Hello!");
 		console.log(data);
-		console.log(logger);
-		console.log(chalk);
+		console.log(`${chalk.blue('Howdy!')}`);
 	}
 };
