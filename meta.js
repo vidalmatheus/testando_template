@@ -16,6 +16,8 @@ module.exports = {
       message: 'Author'
     },
   },
-	complete: () => {},
+	complete: () => {
+		console.log("Hello!");
+	},
   completeMessage: 'Project Created!'
 };
