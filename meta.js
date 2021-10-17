@@ -17,7 +17,7 @@ module.exports = {
     },
   },
 	complete: (data, {chalk}) => {
-		${chalk.green('Project created!')}
+		console.log(chalk.green('Project created!'));
 		msg = `
 To get started:
 	${chalk.blueBright(`
