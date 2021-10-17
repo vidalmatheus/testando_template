@@ -16,12 +16,13 @@ module.exports = {
       message: 'Author'
     },
   },
+  skipInterpolation: "frontend/**/*.vue",
 	complete: (data, {chalk}) => {
 		console.log(chalk.green('\nProject created \\o/!'));
 		msg = `\nTo get started:
     ${chalk.blueBright(`
-	cd ${data.destDirName}
-	follow the instructions on README.md`)}`;
+ cd ${data.destDirName}\n
+ follow the instructions on README.md`)}`;
 		console.log(msg);
 	}
 };
